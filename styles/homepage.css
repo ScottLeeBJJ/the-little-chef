@@ -39,12 +39,22 @@ body
     height: 600px;
 }
 
-.body-content img
+.body-content
 {
     height: 700px;
 
     padding: 20px;
     margin-right: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.breakfast-menu
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .footer-wrapper
