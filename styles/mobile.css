@@ -1,7 +1,25 @@
-@media(max-width: 600px)
+@media(max-width: 1600px)
 {
     body
     {
-        width: 600px;
+        overflow-x: hidden;
+        width: 1500px;
+    }
+
+    .title h1
+    {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .title a
+    {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .body-content
+    {
+        overflow-x:  hidden;
+        width: 1500px;
+        margin-left: -50px;
     }
 }
